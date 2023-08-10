@@ -1,0 +1,406 @@
+J/AJ/150/31   Photometry and redshifts of galaxies in the UDF  (Rafelski+, 2015)
+================================================================================
+UVUDF: ultraviolet through near-infrared catalog and photometric redshifts of
+galaxies in the Hubble Ultra Deep Field.
+    Rafelski M., Teplitz H.I., Gardner J.P., Coe D., Bond N.A., Koekemoer A.M.,
+    Grogin N., Kurczynski P., McGrath E.J., Bourque M., Atek H., Brown T.M.,
+    Colbert J.W., Codoreanu A., Ferguson H.C., Finkelstein S.L., Gawiser E.,
+    Giavalisco M., Gronwall C., Hanish D.J., Lee K.-S., Mehta V.,
+    de Mello D.F., Ravindranath S., Ryan R.E., Scarlata C., Siana B., Soto E.,
+    Voyer E.N.
+   <Astron. J., 150, 31 (2015)>
+   =2015AJ....150...31R    (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Redshifts ; Galaxies, photometry ; Photometry, HST
+Keywords: cosmology: observations - galaxies: distances and redshifts -
+          galaxies: evolution - galaxies: high-redshift - galaxies: photometry
+
+Abstract:
+    We present photometry and derived redshifts from up to eleven
+    bandpasses for 9927 galaxies in the Hubble Ultra Deep field (UDF),
+    covering an observed wavelength range from the near-ultraviolet (NUV)
+    to the near-infrared (NIR) with Hubble Space Telescope observations.
+    Our Wide Field Camera 3 (WFC3)/UV F225W, F275W, and F336W image
+    mosaics from the ultra-violet UDF (UVUDF) imaging campaign are newly
+    calibrated to correct for charge transfer inefficiency, and use new
+    dark calibrations to minimize background gradients and pattern noise.
+    Our NIR WFC3/IR image mosaics combine the imaging from the UDF09 and
+    UDF12 campaigns with CANDELS data to provide NIR coverage for the
+    entire UDF field of view. We use aperture-matched point-spread
+    function corrected photometry to measure photometric redshifts in the
+    UDF, sampling both the Lyman break and Balmer break of galaxies at
+    z~0.8--3.4, and one of the breaks over the rest of the redshift range.
+    Our comparison of these results with a compilation of robust
+    spectroscopic redshifts shows an improvement in the galaxy photometric
+    redshifts by a factor of two in scatter and a factor three in outlier
+    fraction (OLF) over previous UDF catalogs. The inclusion of the new
+    NUV data is responsible for a factor of two decrease in the OLF
+    compared to redshifts determined from only the optical and NIR data,
+    and improves the scatter at z<0.5 and at z>2. The panchromatic
+    coverage of the UDF from the NUV through the NIR yields robust
+    photometric redshifts of the UDF, with the lowest OLF available.
+
+Description:
+    We present photometry and derived redshifts from up to eleven
+    bandpasses for 9927 galaxies in the Hubble Ultra Deep field (UDF),
+    covering an observed wavelength range from the near-ultraviolet (NUV)
+    to the near-infrared (NIR) with Hubble Space Telescope (HST)
+    observations.
+
+    The NUV coverage of the UDF (UVUDF) is comprised of three WFC3-UVIS
+    filters: F225W, F275W, and F336W. The UVUDF observations were obtained
+    in 2012. The optical data are covered by the four original Advanced
+    Camera for Surveys (ACS) optical filters: F435W, F606W, F775W, and
+    F850LP. The deep NIR coverage includes four WFC3-IR filters: F105W,
+    F125W, F140W, and F160W obtained in the UDF09 and UDF12 programs
+    (Oesch et al. 2010ApJ...709L..21O, 2010ApJ...709L..16O; Bouwens et al.
+    2011ApJ...737...90B; Ellis et al. 2013ApJ...763L...7E; Koekemoer et
+    al. 2013ApJS..209....3K). The entire field is also covered by three of
+    the four WFC3-IR filters (F105W, F125W, and F160W) in the CANDELS
+    GOODS-S observations (Grogin et al. 2011ApJS..197...35G; Koekemoer et
+    al. 2011ApJS..197...36K).
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl    Records    Explanations
+--------------------------------------------------------------------------------
+ReadMe          80          .    This file
+table4.dat     103        169    Reliable spectroscopic redshifts of galaxies in
+                                 the Hubble Ultra Deep field (UDF)
+table5.dat     921       9969    Hubble Ultra Deep field (UDF) catalog
+--------------------------------------------------------------------------------
+
+See also:
+         B/hst  : HST Archived Exposures Catalog (STScI, 2007)
+        II/261  : GOODS initial results (Giavalisco+, 2004)
+        II/258  : Hubble Ultra Deep Field Catalog (UDF) (STScI, 2004)
+ J/AJ/149/178   : Redshift of galaxies in GOODS-South field (Morris+, 2015)
+ J/ApJS/207/24  : GOODS-S CANDELS multiwavelength catalog (Guo+, 2013)
+ J/ApJ/756/164  : UV galaxies in CANDELS from z=8 to z=4 (Finkelstein+, 2012)
+ J/A+A/533/A119 : GOODS-Herschel North and South catalogs (Elbaz+, 2011)
+ J/ApJ/743/146  : HST/WFC3 observations in HUDF and GOODS-S (Cameron+, 2011)
+ J/AJ/138/598   : NUV sources in Hubble Ultra Deep Field (Voyer+, 2009)
+ J/ApJ/703/2033 : Lyman-break galaxies (LBG) in the HUDF (Rafelski+, 2009)
+ J/A+A/478/83   : GOODS-South Field VLT/FORS2 redshifts. III. (Vanzella+, 2008)
+ J/ApJ/668/839  : Redshifts for 1308 HUDF galaxies (Ryan+, 2007)
+ J/AJ/132/1729  : Hubble Ultra Deep Field BVI-dropout sources (Beckwith+, 2006)
+ J/AJ/132/926   : Galaxies in the Hubble Ultra Deep Field (Coe+, 2006)
+ J/ApJ/639/724  : Tadpole galaxies in the Hubble UDF (Straughn+, 2006)
+ J/A+A/454/423  : GOODS-South Field VLT/FORS2 redshifts. II. (Vanzella+, 2006)
+ J/A+A/434/53   : GOODS-South Field redshifts (Vanzella+, 2005)
+ J/ApJ/631/85   : Galaxy morphologies in the Hubble UDF (Elmegreen+, 2005)
+ J/AJ/130/1     : Catalog of source parameters in NICMOS UDF (Thompson+, 2005)
+ J/AJ/125/1107  : Ultra-deep near-IR observation in HDF-S (Labbe+, 2003)
+ J/ApJ/513/34   : HDF photometric redshifts catalog (Fernandez-Soto+, 1999)
+
+Byte-by-byte Description of file: table4.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label  Explanations
+--------------------------------------------------------------------------------
+   1-  5  I5    ---    UDF    [373/54454] Identification number of the object in
+                               the Hubble Ultra Deep field (UDF) (G1)
+   8- 18  F11.8 deg    RAdeg  Right Ascension (J2000)
+  21- 32  F12.8 deg    DEdeg  Declination (J2000)
+  35- 38  F4.2  ---    zsp    [0.1/6] Spectroscopic redshift
+  41- 44  F4.2  ---    zph1   [0.06/5.8] Photometric redshift from Bayesian
+                               Photometric Redshift (BPZ) model fit result (1)
+  47- 50  F4.2  ---  e_zph1   [0.05/0.4] Lower bound 95% confidence on zph1 (2)
+  53- 56  F4.2  ---  E_zph1   [0.04/0.3] Upper bound 95% confidence on zph1 (2)
+  60- 63  F4.2  ---    chi2m  [0/6.6] BPZ modified reduced {chi}^2^ (G2)
+  66- 69  F4.2  ---    Pzph1  [0.8/1] Integrated BPZ redshift probability (P(z))
+                               contained within 2*(0.03*(1+zph1))
+  72- 75  F4.2  ---    zph2   [0.04/5.8] Photometric redshift from EAZY (G3)
+  78- 81  F4.2  ---  e_zph2   [0.03/2.2] Lower bound 95% confidence on zph2 (2)
+  84- 87  F4.2  ---  E_zph2   [0.03/1.2] Upper bound 95% confidence on zph2 (2)
+  90- 94  F5.2  ---    chi2r  [0.08/68.5] EAZY reduced {chi}^2^ fit
+  97-100  F4.2  ---    Pzph2  [0.5/1] Integrated EAZY redshift probability
+                               (P(z)) contained within 0.2*(1+zph2)
+     103  I1    ---  r_zsp    [1/9] Reference for spectroscopic redshift (G4)
+--------------------------------------------------------------------------------
+Note (1): Reference: Benitez (2000ApJ...536..571B); Benitez et al. 2004
+     (cat. J/ApJS/150/1); Coe et al. 2006 (cat. J/AJ/132/926).
+Note (2): Uncertainty from the 95% confidence interval for the model.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table5.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units  Label     Explanations
+--------------------------------------------------------------------------------
+   1-  5  I5    ---    UDF       [9/54950] Identification number of the object
+                                  in the Hubble Ultra Deep field (UDF) (ID) (G1)
+   7- 12  I6    ---    [CBS2006] [1/60319]?=-99 Object number from Coe et al.
+                                  2006 (cat. J/AJ/132/926) (COE_ID) (1)
+  14- 23  F10.6 deg    RAdeg     Right Ascension in decimal degrees (J2000) (RA)
+  25- 34  F10.6 deg    DEdeg     Declination in decimal degrees (J2000) (DEC)
+  36- 44  F9.3  pix    Xpix      [421/10075] Image X pixel coordinate in the UDF
+                                  mosaic (X)
+  46- 54  F9.3  pix    Ypix      [481/10001] Image Y pixel coordinate in the UDF
+                                  mosaic (Y)
+      55  A1    ---  f_F225W     [ab] Flag on F225W (2)
+  56- 63  F8.4  mag    F225W     [21.8/32.1]? Total AB magnitude in
+                                  HST/WFC3-UVIS F225W band (MAG_F225W) (3)
+      64  A1    ---  f_F275W     [ab] Flag on F275W (2)
+  65- 72  F8.4  mag    F275W     [21.3/30.5]? Total AB magnitude in
+                                  HST/WFC3-UVIS F275W band (MAG_F275W) (3)
+      73  A1    ---  f_F336W     [ab] Flag on F336W (2)
+  74- 81  F8.4  mag    F336W     [20.8/31.8]? Total AB magnitude in
+                                  HST/WFC3-UVIS F336W band (MAG_F336W) (3)
+      82  A1    ---  f_F435W     [a] Non-detection flag on F435W (2)
+  83- 89  F7.4  mag    F435W     [19.5/32.6]? Total AB magnitude in HST/ACS
+                                  F435W band (MAG_F435W) (3)
+      90  A1    ---  f_F606W     [a] Non-detection flag on F606W (2)
+  91- 97  F7.4  mag    F606W     [19.1/32.7]? Total AB magnitude in HST/ACS
+                                  F606W band (MAG_F606W) (3)
+      98  A1    ---  f_F775W     [a] Non-detection flag on F775W (2)
+  99-105  F7.4  mag    F775W     [18.6/31.9]? Total AB magnitude in HST/ACS
+                                  F775W band (MAG_F775W) (3)
+     106  A1    ---  f_F850LP    [a] Non-detection flag on F850LP (2)
+ 107-113  F7.4  mag    F850LP    [18.3/32.4]? Total AB magnitude in HST/ACS
+                                  F850LP band (MAG_F850LP) (3)
+     114  A1    ---  f_F105W     [a] Non-detection flag on F105W (2)
+ 115-121  F7.4  mag    F105W     [18/31.8]? Total AB magnitude in HST/WFC3-IR
+                                  F105W band (MAG_F105W) (3)
+     122  A1    ---  f_F125W     [a] Non-detection flag on F125W (2)
+ 123-129  F7.4  mag    F125W     [17.8/32]? Total AB magnitude in HST/WFC3-IR
+                                  F125W band (MAG_F125W) (3)
+     130  A1    ---  f_F140W     [ab] Flag on F140W (2)
+ 131-138  F8.4  mag    F140W     [18.3/32]? Total AB magnitude in HST/WFC3-IR
+                                  F140W band (MAG_F140W) (3)
+     139  A1    ---  f_F160W     [a] Non-detection flag on F160W (2)
+ 140-146  F7.4  mag    F160W     [17.7/31.5]? Total AB magnitude in HST/WFC3-IR
+                                  F160W band (MAG_F160W) (3)
+ 148-154  F7.4  mag  e_F225W     [0.006/30.8]?=0 Total error in F225W
+                                  (MAGERR_F225W) (4)
+ 156-162  F7.4  mag  e_F275W     [0.004/30.8]?=0 Total error in F275W
+                                  (MAGERR_F275W) (4)
+ 164-170  F7.4  mag  e_F336W     [0.002/31.3]?=0 Total error in F336W
+                                  (MAGERR_F336W) (4)
+ 172-178  F7.4  mag  e_F435W     [0.0003/33] Total error in F435W
+                                  (MAGERR_F435W) (4)
+ 180-186  F7.4  mag  e_F606W     [0.0002/33.3] Total error in F606W
+                                  (MAGERR_F606W) (4)
+ 188-194  F7.4  mag  e_F775W     [0.0001/32] Total error in F775W
+                                  (MAGERR_F775W) (4)
+ 196-202  F7.4  mag  e_F850LP    [0.0001/32.4] Total error in F850LP
+                                  (MAGERR_F850LP) (4)
+ 204-210  F7.4  mag  e_F105W     [0.0001/31.7] Total error in F105W
+                                  (MAGERR_F105W) (4)
+ 212-218  F7.4  mag  e_F125W     [0.0001/31.9] Total error in F125W
+                                  (MAGERR_F125W) (4)
+ 220-226  F7.4  mag  e_F140W     [0.0003/31.8]?=0 Total error in F140W
+                                  (MAGERR_F140W) (4)
+ 228-234  F7.4  mag  e_F160W     [0.0001/31.8] Total error in F160W
+                                  (MAGERR_F160W) (4)
+ 236-243  F8.4  mJy    FF225W    [-0.1/6.6]?=-99 Total flux of HST/WFC3-UVIS
+                                  F225W band (FLUX_F225W) (5)
+ 245-252  F8.4  mJy    FF275W    [-0.1/10.4]?=-99 Total flux of HST/WFC3-UVIS
+                                  F275W band (FLUX_F275W) (5)
+ 254-261  F8.4  mJy    FF336W    [-1.2/16.5]?=-99 Total flux of HST/WFC3-UVIS
+                                  F336W band (FLUX_F336W) (5)
+ 263-273  F11.8 mJy    FF435W    [-0.01/55] Total flux of HST/ACS F435W band
+                                  (FLUX_F435W) (5)
+ 275-285  F11.8 mJy    FF606W    [-0.002/80] Total flux of HST/ACS F606W
+                                  band (FLUX_F606W) (5)
+ 287-298  F12.8 mJy    FF775W    [-0.002/129] Total flux of HST/ACS F775W
+                                  band (FLUX_F775W) (5)
+ 300-311  F12.8 mJy    FF850LP   [-0.003/166] Total flux of HST/ACS F850LP
+                                  band (FLUX_F850LP) (5)
+ 313-324  F12.8 mJy    FF105W    [-0.02/224] Total flux of HST/WFC3-IR F105W
+                                  band (FLUX_F105W) (5)
+ 326-337  F12.8 mJy    FF125W    [-0.003/264] Total flux of HST/WFC3-IR F125W
+                                  band (FLUX_F125W) (5)
+ 339-350  F12.8 mJy    FF140W    [-0.002/164]?=-99 Total flux of HST/WFC3-IR
+                                  F140W band (FLUX_F140W) (5)
+ 352-363  F12.8 mJy    FF160W    [-0.01/283] Total flux of HST/WFC3-IR F160W
+                                  band (FLUX_F160W) (5)
+     364  A1    ---  f_FF225W    [b] Non-covering flag on FF225W (2)
+ 365-374  F10.8 mJy  e_FF225W    [0.0001/0.2]? Total error in FF225W
+                                  (FLUXERR_F225W) (5)
+     375  A1    ---  f_FF275W    [b] Non-covering flag on FF275W (2)
+ 376-385  F10.8 mJy  e_FF275W    [0.0001/0.2]? Total error in FF275W
+                                  (FLUXERR_F275W) (5)
+     386  A1    ---  f_FF336W    [b] Non-covering flag on FF336W (2)
+ 387-396  F10.8 mJy  e_FF336W    [0/0.1]? Total error in FF336W
+                                  (FLUXERR_F336W) (5)
+ 398-407  F10.8 mJy  e_FF435W    [0.0001/0.03] Total error in FF435W
+                                  (FLUXERR_F435W) (5)
+ 409-418  F10.8 mJy  e_FF606W    [0.0001/0.02] Total error in FF606W
+                                  (FLUXERR_F606W) (5)
+ 420-429  F10.8 mJy  e_FF775W    [0.000/0.03] Total error in FF775W
+                                  (FLUXERR_F775W) (5)
+ 431-440  F10.8 mJy  e_FF850LP   [0.0002/0.03] Total error in FF850LP
+                                  (FLUXERR_F850LP) (5)
+ 442-452  F11.8 mJy  e_FF105W    [0.0002/12.1] Total error in FF105W
+                                  (FLUXERR_F105W) (5)
+ 454-463  F10.8 mJy  e_FF125W    [0.0002/0.5] Total error in FF125W
+                                  (FLUXERR_F125W) (5)
+     464  A1    ---  f_FF140W    [b] Non-covering flag on FF140W (2)
+ 465-474  F10.8 mJy  e_FF140W    [0.0002/0.3]? Total error in FF140W
+                                  (FLUXERR_F140W) (5)
+ 476-485  F10.8 mJy  e_FF160W    [0.0001/0.2] Total error in FF160W
+                                  (FLUXERR_F160W) (5)
+ 487-498  F12.8 e-/s   FIF225W   [-0.2/7]?=-99 SExtractor isophotal flux of
+                                   HST/WFC3-UVIS F225W (FLUX_ISO_F225W) (5)
+ 500-511  F12.8 e-/s   FIF275W   [-0.1/12]?=-99 SExtractor isophotal flux of
+                                   HST/WFC3-UVIS F275W (FLUX_ISO_F275W) (5)
+ 513-524  F12.8 e-/s   FIF336W   [-3/23]?=-99 SExtractor isophotal flux of
+                                   HST/WFC3-UVIS F336W (FLUX_ISO_F336W) (5)
+ 526-537  F12.8 e-/s   FIF435W   [-0.05/282] SExtractor isophotal flux of
+                                  HST/ACS F435W (FLUX_ISO_F435W) (5)
+ 539-550  F12.8 e-/s   FIF606W   [-0.03/860] SExtractor isophotal flux of
+                                  HST/ACS F606W (FLUX_ISO_F606W) (5)
+ 552-563  F12.8 e-/s   FIF775W   [-0.01/643] SExtractor isophotal flux of
+                                  HST/ACS F775W (FLUX_ISO_F775W) (5)
+ 565-576  F12.8 e-/s   FIF850LP  [-0.01/410] SExtractor isophotal flux of
+                                  HST/ACS F850LP (FLUX_ISO_F850LP) (5)
+ 578-590  F13.8 e-/s   FIF105W   [-0.1/1942] SExtractor isophotal flux of
+                                  HST/WFC3-IR F105W (FLUX_ISO_F105W) (5)
+ 592-604  F13.8 e-/s   FIF125W   [-0.03/2156] SExtractor isophotal flux of
+                                  HST/WFC3-IR F125W (FLUX_ISO_F125W) (5)
+ 606-618  F13.8 e-/s   FIF140W   [-0.02/1708]?=-99 SExtractor isophotal flux of
+                                  HST/WFC3-IR F140W (FLUX_ISO_F140W) (5)
+     619  A1    ---  f_FIF140W   [b] Non-covering flag on FIF140W (2)
+ 620-632  F13.8 e-/s   FIF160W   [-0.03/1827] SExtractor isophotal flux of
+                                  HST/WFC3-IR F160W (FLUX_ISO_F160W) (5)
+     633  A1    ---  f_FIF225W   [b] Non-covering flag on FIF225W (2)
+ 634-645  F12.8 e-/s e_FIF225W   [0.001/0.2]? Error in FIF225W
+                                  (FLUXERR_ISO_F225W) (5)
+     646  A1    ---  f_FIF275W   [b] Non-covering flag on FIF275W (2)
+ 647-658  F12.8 e-/s e_FIF275W   [0.002/0.2]? Error in FIF275W
+                                  (FLUXERR_ISO_F275W) (5)
+     659  A1    ---  f_FIF336W   [b] Non-covering flag on FIF336W (2)
+ 660-671  F12.8 e-/s e_FIF336W   [0.002/0.2]? Error in FIF336W
+                                  (FLUXERR_ISO_F336W) (5)
+ 673-684  F12.8 e-/s e_FIF435W   [0.001/0.2] Error in FIF435W
+                                  (FLUXERR_ISO_F435W) (5)
+ 686-697  F12.8 e-/s e_FIF606W   [0.001/0.2] Error in FIF606W
+                                  (FLUXERR_ISO_F606W) (5)
+ 699-710  F12.8 e-/s e_FIF775W   [0.0009/0.2] Error in FIF775W
+                                  (FLUXERR_ISO_F775W) (5)
+ 712-723  F12.8 e-/s e_FIF850LP  [0.0007/0.08] Error in FIF850LP
+                                  (FLUXERR_ISO_F850LP) (5)
+ 725-736  F12.8 e-/s e_FIF105W   [0.001/92.3] Error in FIF105W
+                                  (FLUXERR_ISO_F105W) (5)
+ 738-749  F12.8 e-/s e_FIF125W   [0.001/3.7] Error in FIF125W
+                                  (FLUXERR_ISO_F125W) (5)
+ 751-762  F12.8 e-/s e_FIF140W   [0.002/1]? Error in FIF140W
+                                  (FLUXERR_ISO_F140W) (5)
+ 764-775  F12.8 e-/s e_FIF160W   [0.001/0.9] Error in FIF160W
+                                  (FLUXERR_ISO_F160W) (5)
+ 777-783  F7.4  mag    Corr      [-2.7/1.1] Aperture correction to convert from
+                                  isophotal to total magnitude (includes
+                                  extinction and PSF correction) (DETCOR)
+ 785-789  F5.1  pix    FWHM      [0/163.1] SExtractor F775W FWHM (in units of
+                                  pixel; 1 pixel=0.03'') (FWHM)
+ 791-796  I6    pix2   Area      [9/55554] SExtractor F775W isophotal area
+                                  (filtered) above detection threshold (AREAF)
+ 798-802  F5.3  ---    S/G       [0/1] SExtractor F775W stellarity (1=star,
+                                  0=galaxy) (STELLARITY)
+ 804-811  F8.6  ---    Ell       [0/0.82] SExtractor F775W ellipticity
+                                  (ELLIPTICITY)
+ 813-819  F7.3  deg    PA        [-90/90] SExtractor position angle {theta}
+                                  (THETA)
+     821  I1    ---    NUV       [0/1] Near-UV UDF coverage (1=covered by NUV
+                                  data, 0=not covered) (UVUDF_COVERAGE)
+     823  I1    ---    Edge      [0/1] Near-UV UDF edge flag (1=close to NUV
+                                  edge or chip gap, 0=not close) (UVUDF_EDGEFLG)
+ 825-829  F5.3  ---    zph1      [0.025/8.4] Bayesian photometric redshift (BPZ)
+                                  (Z_BPZ)
+ 831-834  F4.2  ---  e_zph1      [0.01/7.85] BPZ 95% lower limit to redshift
+                                  (ZMIN_BPZ)
+ 836-839  F4.2  ---  E_zph1      [0.06/8.8] BPZ 95% upper limit to redshift
+                                  (ZMAX_BPZ)
+ 841-845  F5.3  ---    Pzph1     [0.07/1] Integrated BPZ redshift probability
+                                  (P(z)) contained within 2*(0.03*(1+zph1))
+                                  (ODDS_BPZ)
+ 847-853  F7.3  ---    chi2m     [0.004/120] BPZ modified reduced {chi}^2^
+                                  (CHISQ2_BPZ) (G2)
+ 855-858  F4.1  ---    Type      [1/11] BPZ template number (galaxy type)
+                                  (TEMPLATE_BPZ) (6)
+ 860-864  F5.3  ---    zph2      [0.01/8.5] EAZY photometric redshift
+                                  (Z_EAZY) (G3)
+ 866-870  F5.3  ---  e_zph2      [0.01/8] EAZY 95% lower limit to redshift
+                                  (ZMIN_EAZY)
+ 872-876  F5.3  ---  E_zph2      [0.025/8.85] EAZY 95% upper limit to redshift
+                                  (ZMAX_EAZY)
+ 878-882  F5.3  ---    Pzph2     [0/1.6] EAZY integrated redshift probability
+                                  (P(z)) contained within 0.2(1+zph2)
+                                  (ODDS_EAZY)
+ 884-890  F7.3  ---    chi2r     [0.009/200] EAZY reduced {chi}^2^ (CHISQ_EAZY)
+ 892-893  I2    ---    Nf1       [7/11] Number of filters available for
+                                  photometric redshift (NFOBS)
+ 895-896  I2    ---    Nf2       [0/11] Number of filters with signal to noise
+                                  above 5 (NF5SIG)
+ 898-906  F9.5  ---    zsp       [0/6]?=-99 Spectroscopic redshift (SPECZ)
+ 908-910  I3    ---  r_zsp       [1/9]?=-99 Reference for zsp (SPECZ_REF) (G4)
+ 912-919  F8.4  ---    zph3      [0.2/3.3]?=-99 Grism+EAZY photometric redshift
+                                  from 3D-HST team (Brammer et al.,
+                                  2012ApJS..200...13B) (GRISMZ)
+     921  I1    ---    Star      [0/1]?=0 Star identified by GRAPES program
+                                  (Pirzkal et al. 2005ApJ...622..319P) (1=star)
+                                  (STAR)
+--------------------------------------------------------------------------------
+Note (1): Matched based on segmentation map overlap. note that any single source
+     may not be matched to an object in the Coe et al. 2006 (cat. J/AJ/132/926)
+     catalog, and similarly, two different sources may be matched to the same
+     Coe et al. 2006 (cat. J/AJ/132/926) source.
+Note (2): Flag defined as below:
+     a = Not detected at 1{sigma};
+     b = Not covered by a filter, or for NUV filters, if not detected in F435W
+         image;
+Note (3): Based on the Kron radius, including extinction, aperture, and PSF
+     corrections.
+Note (4): If not detected then equal to the 1{sigma} limiting AB magnitude.
+Note (5): If not detected then still provides measured flux or flux uncertainty.
+Note (6): BPZ templates for 11 galaxies as shown in Figure 3. The 9 interpolated
+     galaxies between adjacent galaxies are represented as decimal places
+     between the integer galaxy numbers.
+      1 = Ell7 (elliptical galaxy);
+      2 = Ell6 (elliptical galaxy);
+      3 = Ell5 (elliptical galaxy);
+      4 = Ell4 (elliptical galaxy);
+      5 = ESO (Lenticular galaxy);
+      6 = Sbc (spiral galaxy);
+      7 = Scd (spiral galaxy);
+      8 = SB1 (starburst);
+      9 = SB2 (starburst);
+     10 = SB3 (starburst);
+     11 = SB11 (starburst).
+--------------------------------------------------------------------------------
+
+Global Notes:
+Note (G1): The final catalog identification numbers identify which of the four
+     SExtractor runs each source measurement is from, as described in Section
+     3.5. Sources from the deep-detection and normal deblending thresholds have
+     identification numbers in the range 1-19000, while those with shallow
+     detection and normal deblending range from 20000 to 29000. Sources from the
+     normal detection and low deblending have identification numbers in the
+     range 30000-49000, while those from the shallow detection and low
+     deblending range from 50000 to 59000.
+Note (G2): The {chi}^2^_mod_ is similar to a normal reduced chi square, but
+     includes an additional uncertainty for the SED templates in addition to the
+     uncertainty in the galaxy photometry (Coe et al. 2006, cat. J/AJ/132/926).
+     The added uncertainty for the SED was determined such that the resultant
+     {chi}^2^_mod_ is a more realistic measure of the quality of the fit (for
+     more discussion of {chi}^2^_mod_, see Rafelski et al. 2009,
+     cat. J/ApJ/703/2033).
+Note (G3): Easy and Accurate Redshifts from Yale (EAZY) photometric redshift
+     fit result (Brammer et al. 2008ApJ...686.1503B).
+Note (G4): Spectroscopy reference defined as follows:
+     1 = Le Fevre et al. 2004 (cat. J/A+A/428/1043);
+     2 = Szokoly et al. 2004 (cat. 2004ApJS..155..271S);
+     3 = Mignoli et al. 2005 (cat. J/A+A/437/883);
+     4 = Daddi et al. (2005ApJ...626..680D);
+     5 = Vanzella et al. (2005, cat. J/A+A/434/53; 2006, cat. J/A+A/454/423;
+         2008, cat. J/A+A/478/83; 2009ApJ...695.1163V);
+     6 = Popesso et al. (2009A+A...494..443P);
+     7 = Balestra et al. 2010 (cat. J/A+A/512/A12);
+     8 = Kurk et al. 2013 (cat. J/A+A/549/A63);
+     9 = Morris et al. 2015 (cat. J/AJ/149/178).
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+================================================================================
+(End)                 Prepared by [AAS]; Sylvain Guehenneux [CDS]    03-Feb-2016

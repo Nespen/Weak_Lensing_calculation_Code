@@ -220,7 +220,7 @@ pylab.title('s calculated for different cutoff Magnitudes')
 pylab.xlabel('$m_{cut}$')
 pylab.ylabel('s')
 pylab.legend(fontsize=8)
-pylab.savefig("./s_calcs/s_calcs_polyfit_UDF+GOODS ", dpi=2000)
+#pylab.savefig("./s_calcs/s_calcs_polyfit_UDF+GOODS ", dpi=2000)
 pylab.show
 
 
@@ -284,8 +284,8 @@ def Chi_sq(var,m,binsize,data,filt,realizations,random_int,samples):
     inv_C=np.linalg.inv(C_i_j)
     print(inv_C)
     print(np.dot(inv_C,C_i_j))
-    pylab.imshow(C_i_j,origin ="lower")
-    pylab.colorbar()
+    #pylab.imshow(C_i_j,origin ="lower")
+    #pylab.colorbar()
 
     data=data[(data[:,f1]-data[:,f2])<0]
     bins=np.arange((m-(5*binsize)),m+(5*binsize),binsize)   

@@ -246,7 +246,7 @@ def Ccalc(m,binsize,data,filt,realizations,random_int,samples):
 
 
     bins=np.arange((m-(5*binsize)),m+(5*binsize),binsize)
-    C=np.ndarray((10,realizations), dtype=float)
+    C=np.ndarray((realizations,10), dtype=float)
     numcat=np.zeros(len(bins))
     for r in range(realizations):
         rdata=shuffle(data, n_samples=samples, random_state=random_int*r)
@@ -254,14 +254,14 @@ def Ccalc(m,binsize,data,filt,realizations,random_int,samples):
             upperlimit=(m-(5*binsize)+((x+1)*binsize))   
             bincat=rdata[rdata[:,filt]<upperlimit]
             number=bincat.shape[0]
-            C[x][r]=np.log(number)
+            C[r][x]=np.log(number)
     C_mean=np.ndarray((realizations), dtype=float)
     C_i_j=np.ndarray((10,10), dtype=float)
     
     for y in range(len(bins)):
         for x in range(len(bins)):
             for r in range(realizations):
-                C_mean[r]=(C[y][r]-np.mean(C[y]))*(C[x][r]-np.mean(C[x]))
+                C_mean[r]=(C[r][y]-np.mean(C[y]))*(C[r][y]-np.mean(C[x]))
             C_i_j[x][y]=np.mean(C_mean)
     return(C_i_j)
 Ccalc(m,binsize,data,filt,realizations,random_int,samples)
@@ -308,7 +308,7 @@ def Chi_sq(var,m,binsize,data,filt,realizations,random_int,samples):
     return second_out
 #Chi_sq=np.sum(second_out)
 print(Chi_sq(var,m,binsize,data,filt,realizations,random_int,samples))
-Chi_min=minimize(Chi_sq, [1,1,1], args=(m,binsize,data,filt,realizations,random_int,samples))
+Chi_min=minimize(Chi_sq, x0=var, args=(m,binsize,data,filt,realizations,random_int,samples))
 
 
 # In[ ]:
